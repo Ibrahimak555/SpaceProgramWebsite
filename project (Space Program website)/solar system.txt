@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Solar System</title>
+<style>
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<script type="text/javascript">
+function sun()
+{
+	document.getElementById("image").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/330px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg"
+    document.getElementById("link").href = "https://en.wikipedia.org/wiki/Sun"
+}
+function mercury()
+{
+	document.getElementById("image").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/330px-Mercury_in_color_-_Prockter07-edit1.jpg"
+    document.getElementById("link").href = "https://en.wikipedia.org/wiki/Mercury_(planet)"
+}
+function venus()
+{
+	document.getElementById("image").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg/330px-PIA23791-Venus-NewlyProcessedView-20200608.jpg"
+    document.getElementById("link").href = "https://en.wikipedia.org/wiki/Venus"
+}
+function earth()
+{
+	document.getElementById("image").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/330px-The_Earth_seen_from_Apollo_17.jpg"
+    document.getElementById("link").href = "https://en.wikipedia.org/wiki/Earth"
+}
+function mars()
+{
+	document.getElementById("image").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/330px-OSIRIS_Mars_true_color.jpg"
+    document.getElementById("link").href = "https://en.wikipedia.org/wiki/Mars"
+}
+function jupiter()
+{
+	document.getElementById("image").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/330px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg"
+    document.getElementById("link").href = "https://en.wikipedia.org/wiki/Jupiter"
+}
+function saturn()
+{
+	document.getElementById("image").src = "https://yt3.ggpht.com/a-/AAuE7mDHD5-rmD1qTKTVNuouEU190isbbfO1OopvFw=s900-mo-c-c0xffffffff-rj-k-no"
+    document.getElementById("link").href = "https://en.wikipedia.org/wiki/Saturn"
+}
+function uranus()
+{
+	document.getElementById("image").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/330px-Uranus2.jpg"
+    document.getElementById("link").href = "https://en.wikipedia.org/wiki/Uranus"
+}
+function neptune()
+{
+	document.getElementById("image").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/330px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg"
+    document.getElementById("link").href = "https://en.wikipedia.org/wiki/Neptune"
+}
+</script>
+</head>
+<body>
+
+<h1 align="middle">Solar System</h1>
+<p>The Solar System is the gravitationally bound system of the Sun and the objects that orbit it, either directly or indirectly.<br> Of the objects that orbit the Sun directly, the largest are the eight planets, with the remainder being smaller objects, the dwarf planets and small Solar System bodies like asteroids and comets.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Solar-System.pdf/page1-1350px-Solar-System.pdf.jpg" alt="Avatar1" height="400px" width="1200px" align="bottom"/>
+<p>Click on the button and also click image for more information</p>
+
+<a id="link" href=""><image id="image" align="right" src="" height="400" width="400"/></a>
+
+<input type="button" onclick="sun()" value="Sun"/><br><br>
+<input type="button" onclick="mercury()" value="Mercury"/><br><br>
+<input type="button" onclick="venus()" value="Venus"/><br><br>
+<input type="button" onclick="earth()" value="Earth"/><br><br>
+<input type="button" onclick="mars()" value="Mars"/><br><br>
+<input type="button" onclick="jupiter()" value="Jupiter"/><br><br>
+<input type="button" onclick="saturn()" value="Saturn"/><br><br>
+<input type="button" onclick="uranus()" value="Uranus"/><br><br>
+<input type="button" onclick="neptune()" value="Neptune"/><br><br>
+
+</body>
+</html>

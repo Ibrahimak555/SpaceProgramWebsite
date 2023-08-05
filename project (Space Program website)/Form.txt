@@ -1,0 +1,46 @@
+<html>
+<head>
+<script type="text/javascript">
+	
+    function passcheck()
+    {
+    	var p = document.getElementById("psw").value
+        var r = document.getElementById("rpsw").value
+        var plen = p.length
+        var rlen = r.length
+    	if(p!=r)
+        {
+        	alert("Enter correct password - Password and Retype password not matching");
+            return false;
+        }
+        else if(p==r && plen<6 && rlen<6)
+        {
+            return false;
+        }
+    }
+    
+</script>
+</head>
+
+<body>
+<form action="/action_page.php" onsubmit="return passcheck()" method="post">
+<h1 align="middle">Registration form</h1>
+<hr>
+<table>
+
+<tr><td>User name</td>   <td><input type="text" id="usn" required/></td></tr>
+
+<tr><td>Email Id</td>   <td><input type="email" id="eid" required/></td></tr>
+
+<tr><td>Password</td>   <td><input type="password" id="psw" minlength="6" required/></td></tr>
+
+<tr><td>Retype password</td>   <td><input type="password" id="rpsw" minlength="6" required/></td></tr>
+
+<tr><td>Mobile Number</td>   <td><input type="text" id="mno" pattern="[0-9]{10}" title="Ten numbers mobile number" minlength="10" required/></td></tr>
+
+<tr><td></td>   <td><input type="submit" id="btn" value="Submit" onclick="passcheck()" style="background-color:lightblue"/></td></tr>
+
+</table>
+</form>
+</body>
+</html>

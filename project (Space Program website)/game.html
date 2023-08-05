@@ -1,0 +1,98 @@
+<html>
+<head>
+<script type="text/javascript">
+	
+    var starttime = new Date();
+    var startmin = starttime.getMinutes();
+    var startsec = starttime.getSeconds();
+    var score = 0;
+    
+    function usa()
+    {
+    	score = 50;
+    	alert("Correct, now find Russia")
+        document.getElementById("score").innerHTML="Score is "+score;
+        document.getElementById("countries").innerHTML="Russia - Russian Federal Space Agency (RFSA or Roscosmos)";
+    }
+    function russia()
+    {
+    	score = 100;
+    	alert("Correct, now find China")
+        document.getElementById("score").innerHTML="Score is "+score;
+        document.getElementById("countries").innerHTML="China - China National Space Administration (CNSA)";
+    }
+    function china()
+    {
+    	score = 150;
+    	alert("Correct, now find India")
+        document.getElementById("score").innerHTML="Score is "+score;
+        document.getElementById("countries").innerHTML="India - Indian Space Research Organisation (ISRO)";
+    }
+    function india()
+    {
+    	score = 200;
+    	alert("Correct, now find Japan")
+        document.getElementById("score").innerHTML="Score is "+score;
+        document.getElementById("countries").innerHTML="Japan - Japan Aerospace Exploration Agency (JAXA)";
+    }
+    function japan()
+    {
+    	score = 250;
+    	alert("Correct, now find France")
+        document.getElementById("score").innerHTML="Score is "+score;
+        document.getElementById("countries").innerHTML="France - French National Centre for Space Studies (CNES)";
+    }
+    function france()
+    {
+    	score = 300;
+        var stoptime = new Date();
+    	var stopmin = stoptime.getMinutes();
+    	var stopsec = stoptime.getSeconds();
+        
+    	alert("Excellent, you completed the quiz")
+        alert("Your score is "+score)
+        if(stopsec<startsec)
+        {
+        	var min = stopmin-startmin;
+            var sec1 = 60-startsec;
+            var sec2 = stopsec+sec1;
+            alert("Time spent is "+min+" minutes "+sec2+" seconds")
+        }
+        else
+        {
+        	var min = stopmin-startmin;
+            var sec3 = stopsec-startsec;
+            alert("Time spent is "+min+" minutes "+sec3+" seconds")
+        }
+        
+        
+        document.getElementById("score").innerHTML="Score is "+score;
+        document.getElementById("countries").innerHTML="";
+    }
+	function stop()
+    {
+    	
+    }
+    
+</script>
+</head>
+
+<body>
+<form>
+<h3 id="score">Score is 0</h3>
+<h1>Find this country with space launching capabilities : </h1>
+<h3 id="countries">USA - National Aeronautics and Space Administration (NASA)</h3>
+<img id="image" height="621" width="1250" usemap="#image-map" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/A_large_blank_world_map_with_oceans_marked_in_blue.svg/4500px-A_large_blank_world_map_with_oceans_marked_in_blue.svg.png"/>
+
+<map name="image-map">
+    <area id="usa" onclick="usa()" alt="USA" coords="99,136,81,165,74,185,77,200,85,206,92,207,112,214,119,211,132,222,136,218,143,234,149,236,152,225,166,218,180,221,202,218,207,238,212,236,211,213,238,194,240,178,269,168,284,154,282,143,270,153,251,158,229,161,229,150,211,141,196,137" shape="poly">
+    <area id="russia" onclick="russia()" alt="USSR/RUSSIA" coords="604,55,609,79,602,90,602,108,620,119,625,128,645,132,640,152,626,152,651,161,679,168,673,154,677,146,671,135,682,127,713,130,713,118,737,110,755,119,759,114,774,129,801,137,819,131,836,135,834,126,879,138,889,132,904,133,907,126,910,117,938,135,953,141,962,139,967,163,974,162,979,150,1002,148,975,120,948,113,952,93,991,95,985,84,1009,86,1004,105,1028,126,1028,108,1015,93,1036,88,1047,79,1033,73,1063,72,1059,55,971,39,933,35,889,26,857,29,803,42,812,34,779,28,753,11,688,24" shape="poly">
+    <area id="china" onclick="china()" alt="CHINA" coords="805,138,792,153,790,167,770,179,781,190,789,194,799,194,800,206,805,218,834,228,851,225,858,220,867,227,876,236,875,245,885,256,901,247,911,254,924,255,942,248,951,234,957,216,940,200,946,189,933,185,936,170,940,178,951,176,964,162,960,142,911,118,906,135,920,144,898,157,876,169,847,164,826,151" shape="poly">
+    <area id="india" onclick="india()" alt="INDIA" coords="783,193,778,202,781,210,772,229,770,244,767,254,774,261,779,255,803,317,813,298,812,285,841,250,836,236,850,240,854,254,859,237,866,229,858,218,851,228,836,229,827,234,805,224,804,216,799,194" shape="poly">
+    <area id="japan" onclick="japan()" alt="JAPAN" coords="981,204,985,215,1002,201,1017,194,1010,175,1012,159,1030,149,997,152,999,170,1001,188,989,196" shape="poly">
+    <area id="france" onclick="france()" alt="FRANCE" coords="502,139,507,148,506,163,520,167,523,161,533,161,538,157,532,148,539,139,519,128" shape="poly">
+</map>
+
+</form>
+</body>
+</html>

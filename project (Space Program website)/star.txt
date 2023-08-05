@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/1300px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg");
+  background-repeat:no-repeat;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+
+<h1 align="middle">Star</h1><br>
+<p>A star is an astronomical object consisting of a luminous spheroid of plasma held together by its own gravity.</p>
+<p>The nearest star to Earth is the Sun. The observable universe contains an estimated 10<sup>22</sup> to 10<sup>24</sup> stars, but most are invisible to the naked eye from Earth, including all individual stars outside our galaxy.</p>
+<p>A star's life begins with the gravitational collapse of a gaseous nebula of material composed primarily of hydrogen, along with helium and trace amounts of heavier elements. The total mass of a star is the main factor that determines its evolution and eventual fate. For most of its active life, a star shines due to thermonuclear fusion of hydrogen into helium in its core, releasing energy that traverses the star's interior and then radiates into outer space. At the end of a star's lifetime, its core becomes a stellar remnant: a white dwarf, a neutron star, or, if it is sufficiently massive, a black hole.</p>
+<p>Historically, stars have been important to civilizations throughout the world. They have been part of religious practices, used for celestial navigation and orientation, to mark the passage of seasons, and to define calendars.
+<br>
+Early astronomers recognized a difference between "fixed stars", whose position on the celestial sphere does not change, and "wandering stars" (planets), which move noticeably relative to the fixed stars over days or weeks.</p>
+</body>
+</html>

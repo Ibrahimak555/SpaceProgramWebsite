@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nebula</title>
+<style>
+body {
+  background-color: purple;
+  color: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+
+<h1 align="middle">Nebula</h1>
+<p>A nebula is an interstellar cloud of dust, hydrogen, helium and other ionized gases.</p>
+<p>Most nebulae are of vast size; some are hundreds of light-years in diameter. A nebula that is visible to the human eye from Earth would appear larger, but no brighter, from close by.</p>
+<p> Although denser than the space surrounding them, most nebulae are far less dense than any vacuum created on Earth – a nebular cloud the size of the Earth would have a total mass of only a few kilograms.</p>
+<p> In these regions, the formations of gas, dust, and other materials "clump" together to form denser regions, which attract further matter, and eventually will become dense enough to form stars. The remaining material is then believed to form planets and other planetary system objects.</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/FoxFur_Nebula_from_the_Mount_Lemmon_SkyCenter_Schulman_Telescope_courtesy_Adam_Block.jpg" alt="Avatar1" height="350px" width="600px" align="bottom"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Eagle_Nebula_from_ESO.jpg/1200px-Eagle_Nebula_from_ESO.jpg" alt="Avatar1" height="350px" width="600px" align="bottom"/>
+
+</body>
+</html>
